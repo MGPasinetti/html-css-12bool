@@ -17,7 +17,7 @@ h1 {
 }
 
 [class*="col-"] {
-    height: 2.5rem;
+    padding: 1rem;
     border: 1px solid white;
     background-color: #006CFA;
     color: white;
@@ -26,6 +26,11 @@ h1 {
     justify-content: center;
 }
 
-[class*="nested.col-"] {
+.inside.row {
+    width: calc(100% - 1rem)
+}
+
+.nested {
     background-color: #00E165;
+    border: 1px solid #006CFA;
 }
