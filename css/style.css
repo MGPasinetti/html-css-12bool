@@ -16,7 +16,7 @@ h1 {
     width: 100%;
 }
 
-.col {
+[class*="col-"] {
     height: 2.5rem;
     border: 1px solid white;
     background-color: #006CFA;
