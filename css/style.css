@@ -12,8 +12,13 @@ h1 {
     font-size: 15px;
 }
 
+/* UTILITY CLASSES */
 .row {
     width: 100%;
+}
+
+.margin1 {
+    margin-bottom: 1rem;
 }
 
 [class*="col-"] {
@@ -33,4 +38,8 @@ h1 {
 .nested {
     background-color: #00E165;
     border: 1px solid #006CFA;
+}
+
+.second.row {
+    height: 40.4px;
 }
