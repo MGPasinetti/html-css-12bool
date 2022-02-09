@@ -19,15 +19,14 @@ h2 {
 /* UTILITY CLASSES */
 .row {
     width: 100%;
-    height: 3.5rem;
+    height: 4rem;
 }
 
 .margin1 {
-    margin-bottom: 1rem;
+    margin-bottom: 1.5rem;
 }
 
 [class*="col-"] {
-    padding: .5rem;
     border: 1px solid white;
     background-color: #006CFA;
     color: white;
@@ -37,11 +36,11 @@ h2 {
 }
 
 .inside.row {
-    width: 100%;
+    height: 70%;
+    margin: .7rem;
 }
 
 .nested {
-    background-color: #00E165;
     border: 1px solid #006CFA;
-    height: 100%;
+    background-color: #00E165;
 }
